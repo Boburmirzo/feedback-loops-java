@@ -290,18 +290,6 @@ feedback-loops-java/
 
 ---
 
-## Key Differences from .NET Version
-
-1. **Language & Framework**: Java 17 with Azure Functions Java SDK instead of .NET 8
-2. **Dependencies**: Maven instead of NuGet packages
-3. **Database Connectivity**: JDBC with HikariCP connection pooling instead of Npgsql
-4. **JSON Processing**: Jackson instead of Newtonsoft.Json
-5. **Async Patterns**: CompletableFuture instead of Task/async-await
-6. **Configuration**: Environment variables access using System.getenv()
-7. **Logging**: java.util.logging instead of ILogger
-
----
-
 ## Future Improvements
 
 1. **Enhanced User Analytics**: Track user interactions for better recommendations
