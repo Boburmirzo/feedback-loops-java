@@ -137,7 +137,7 @@ VALUES
 ### 1. Clone and Build
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Boburmirzo/feedback-loops-java.git
 cd feedback-loops-java
 mvn clean compile
 ```

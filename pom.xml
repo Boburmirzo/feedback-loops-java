@@ -20,6 +20,7 @@
         <azure.functions.maven.plugin.version>1.31.0</azure.functions.maven.plugin.version>
         <azure.functions.java.library.version>3.1.0</azure.functions.java.library.version>
         <functionAppName>feedback-loops-java</functionAppName>
+        <stagingDirectory>${project.build.directory}/azure-functions/${functionAppName}</stagingDirectory>
     </properties>
 
     <dependencies>
